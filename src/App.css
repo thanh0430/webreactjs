@@ -1,0 +1,125 @@
+
+.head{
+  height: 150px;
+  background-color: rgb(255, 0, 0);
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.logo{
+  height: 100%;
+  width: 15%;
+  padding: 30px 0 30px 30px ;
+}
+
+.menu{
+  height: 100%;
+  width: 45%;
+}
+
+.menu>ul{
+  display: flex;
+}
+
+.menu>ul>li{
+  margin-right: 50px;
+  margin-top: 30px;
+  width: 250px;
+  font-size:15px;
+  color: azure;
+  list-style: none;
+}
+
+.menu>ul>li>img{
+  margin-left: 8px;
+  width: 50px;
+  height: 40px;
+}
+
+.search{
+  width: 25%;
+  display: flex;
+}
+
+.input{
+  height: 40px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.timkiem{
+  width: 45px;
+  height: 45px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.card{
+  height: 100%;
+  width: 15%;
+}
+
+.fa-solid{
+  margin-top: 35px;
+  margin-left: 50px;
+}
+
+.footter{
+  width: 100%;
+  height: 300px;
+  background-color: antiquewhite;
+  margin-top: 40px;
+}
+
+.footter>ul{
+  display: flex;
+}
+
+.footter>ul>li{
+  list-style: none;
+  margin: auto;
+  color: black;
+}
+
+.footter1>a{
+  text-decoration: none;
+  color: black;
+  padding-top:20px ;
+}
+.footter>ul>li>h2{
+  font-size:25px;
+}
+.list-child-scroll{ 
+margin-top: 40px;
+height: 120px;
+background-color: antiquewhite;
+line-height: 1.42857143;
+border:solid 1px black;
+}
+.link-image{
+line-height: 1.42857143;
+color: #333333;
+display: inline-block;
+padding-top: 5px;
+}
+.link-image>img{
+  width:150px;
+  height:70px;
+  margin-top:20px;
+  margin-left: 70px
+}
+.auth-screen {
+   display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+  .wrap-content {
+   background-color: #00FFFF;
+    width: 500px;
+    margin-top:70px
+  }
+
+
+
+
